@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrolltoTop';
-import HeroImage from '../assets/topViewHotel.png';
-import ContactImage from '../assets/contactImg.jpg';
+import HeroImage from '../assets/mes1.jpeg';
+import ContactImage from '../assets/meskey.jpeg';
 import { Icon } from '@iconify/react';
 import rooms from '../assets/data/rooms.json';
 import emailIcon from '../assets/icons/email.svg';
@@ -91,8 +91,12 @@ export default function Home() {
           </button>
         </div>
 
-        <div className='w-full'>
-          <img src={HeroImage} alt='Hero Image' className='w-full h-auto' />
+        <div className='layout-pad'>
+          <img
+            src={HeroImage}
+            alt='Hero Image'
+            className='w-full rounded-3xl border border-accent'
+          />
         </div>
       </section>
 
@@ -241,11 +245,13 @@ export default function Home() {
             <Icon icon='el:quote-alt' className='text-accent text-3xl' />
             <div>
               <div className='font-semibold text-lg'>
-                Felt Safe and Comfortable
+                Reliable and Professional Team
               </div>
               <div className='font-light'>
-                The peace I felt staying here was unmatched. From the
-                cleanliness to the friendly staff — I’ll definitely return.
+                Meskey delivered exceptional welding and pressure testing
+                services on our offshore pipeline project. Their attention to
+                detail and safety protocols were top-notch — we’ll definitely
+                work with them again.
               </div>
             </div>
 
@@ -259,13 +265,12 @@ export default function Home() {
             <Icon icon='el:quote-alt' className='text-accent text-3xl' />
             <div>
               <div className='font-semibold text-lg'>
-                Perfect Spot for Events and Stay
+                Seamless Leak Detection Support
               </div>
               <div className='font-light'>
-                We hosted a birthday party at the event hall and booked a few
-                rooms for our guests — everyone had a great time. Reliable
-                amenities and responsive staff made a big difference. It’s rare
-                to find a place that handles both events and lodging this well.
+                We relied on Meskey for critical leak detection and pressure
+                verification. Their advanced testing methods helped us identify
+                issues early and avoid costly delays.
               </div>
             </div>
 
@@ -279,11 +284,12 @@ export default function Home() {
 
       <section className='layout-pad mt-32'>
         <h2 className='font-bold text-4xl text-center'>
-          Engineering for Reliability
+          Trusted Partner for Complex Installations
         </h2>
         <p className='text-center mt-2'>
-          Every service is expertly delivered to ensure safety, precision, and
-          operational efficiency in the most demanding environments.
+          From Xmas tree installation to final calibration checks, Meskey
+          handled everything with precision and expertise. A reliable partner
+          for any high-stakes oil and gas project.
         </p>
 
         <div className='mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:max-w-[90%] mx-auto'>
@@ -388,7 +394,7 @@ export default function Home() {
             <img
               src={ContactImage}
               alt='Location'
-              className='h-full w-auto rounded-2xl'
+              className='h-full w-auto rounded-2xl border-2 border-accent'
             />
           </div>
         </div>
