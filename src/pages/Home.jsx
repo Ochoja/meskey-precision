@@ -279,62 +279,66 @@ export default function Home() {
 
       <section className='layout-pad mt-32'>
         <h2 className='font-bold text-4xl text-center'>
-          Designed For Your Comfort
+          Engineering for Reliability
         </h2>
         <p className='text-center mt-2'>
-          Every detail is thoughtfully arranged to make your stay smooth,
-          secure, and stress-free.
+          Every service is expertly delivered to ensure safety, precision, and
+          operational efficiency in the most demanding environments.
         </p>
 
         <div className='mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:max-w-[90%] mx-auto'>
           {/* Electricity */}
           <div className='flex flex-col items-center text-center gap-3'>
             <Icon
-              icon='healthicons:electricity-outline'
+              icon='material-symbols:precision-manufacturing-outline'
               className='text-primary text-5xl'
             />
-            <h3 className='text-xl md:text-2xl font-bold'>
-              24 Hour Electricity
-            </h3>
+            <h3 className='text-xl md:text-2xl font-bold'>Precision Welding</h3>
             <p className='text-sm font-light'>
-              Reliable power supply around the clock for your comfort.
+              Expert orbit welding for flawless, high-integrity pipeline joints.
             </p>
           </div>
 
           {/* Parking */}
           <div className='flex flex-col items-center text-center gap-3'>
             <Icon
-              icon='hugeicons:car-parking-01'
+              icon='game-icons:fuel-tank'
               className='text-primary text-5xl'
             />
-            <h3 className='text-xl md:text-2xl font-bold'>Private Parking</h3>
+            <h3 className='text-xl md:text-2xl font-bold'>Leak Detection</h3>
             <p className='text-sm font-light'>
-              Enjoy hassle-free parking at no extra cost.
+              Advanced testing methods to detect and prevent leaks before they
+              become hazards.
             </p>
           </div>
 
           {/* Internet */}
           <div className='flex flex-col items-center text-center gap-3'>
-            <Icon icon='uiw:wifi' className='text-primary text-5xl' />
+            <Icon
+              icon='game-icons:offshore-platform'
+              className='text-primary text-5xl'
+            />
             <h3 className='text-xl md:text-2xl font-bold'>
-              High Speed Internet
+              Onshore and Offshore Support
             </h3>
             <p className='text-sm font-light'>
-              Stay connected seamlessly across our spaces.
+              Comprehensive services tailored for both land-based and offshore
+              oil and gas operations.
             </p>
           </div>
 
           {/* Security */}
           <div className='flex flex-col items-center text-center gap-3'>
             <Icon
-              icon='hugeicons:security-lock'
+              icon='bitcoin-icons:graph-outline'
               className='text-primary text-5xl'
             />
             <h3 className='text-xl md:text-2xl font-bold'>
-              Top-notch Security
+              Integrity & Pressure Testing
             </h3>
             <p className='text-sm font-light'>
-              Your safety is guaranteed with our 24/7 security systems.
+              Thorough verification of pipeline durability, pressure tolerance,
+              and compliance.
             </p>
           </div>
         </div>
@@ -365,14 +369,17 @@ export default function Home() {
               <img src={phoneIcon} alt='Phone Icon' />
               <div>
                 <div className='font-medium mb-2'>Phone</div>
-                <div className='text-sm'>+234 817 006 1600</div>
+                <div className='text-sm'>+234 703 039 9465</div>
               </div>
             </div>
             <div className='bg-primary/15 flex items-center gap-6 py-3 px-6 rounded-full mb-2'>
               <img src={addressIcon} alt='Address Icon' />
               <div>
                 <div className='font-medium mb-2'>Address</div>
-                <div className='text-sm'>456 Bakhita way, Sokoto, Nigeria</div>
+                <div className='text-sm'>
+                  Dawaki Abuja Behind Sunset energy Fueling Station Kubwa
+                  Express.
+                </div>
               </div>
             </div>
           </div>
