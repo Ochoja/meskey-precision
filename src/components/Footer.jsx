@@ -7,8 +7,8 @@ export default function Footer() {
       {/* Mobile Design */}
       <div className='block lg:hidden'>
         <div className='font-bold'>
-          <h3 className='text-3xl'>Bakhita</h3>
-          <h4 className='text-2xl'>Pastoral Center</h4>
+          <h3 className='text-3xl'>Meskey</h3>
+          <h4 className='text-2xl'>Precision Engineering</h4>
         </div>
 
         <div className='flex gap-4 mt-8'>
@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
 
         <div className='text-xs mt-48 text-center'>
-          Copyright Bakhita Center, All rights reserved
+          Copyright Meskey Precision Engineering, All rights reserved
         </div>
       </div>
 
@@ -33,8 +33,8 @@ export default function Footer() {
       <div className='hidden lg:block'>
         <div className='flex justify-between items-center'>
           <div className='font-bold'>
-            <h3 className='text-7xl'>Bakhita</h3>
-            <h4 className='text-5xl'>Pastoral Center</h4>
+            <h3 className='text-7xl'>Meskey</h3>
+            <h4 className='text-5xl'>Precision Engineering</h4>
           </div>
           <div className='flex gap-4 mt-8'>
             <NavLink to='/'>Home</NavLink>
@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
 
           <div className='text-xs text-right'>
-            Copyright Bakhita Center, All rights reserved
+            Copyright Meskey Precision Engineering, All rights reserved
           </div>
         </div>
       </div>

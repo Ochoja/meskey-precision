@@ -1,6 +1,7 @@
 import { Icon } from '@iconify/react';
 import { useState } from 'react';
 import { useLocation, NavLink } from 'react-router-dom';
+import Logo from '../assets/LOGO.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
           ? 'text-white border-b border-b-primary/80'
           : 'text-black border-b border-b-primary/20'
       }`}>
-      <h1 className='text-xl md:text-2xl font-bold'>Bakhita Pastoral Center</h1>
+      <img src={Logo} alt='Meskey Precision Engineering' className='max-h-16' />
       <div className='lg:flex gap-12 items-center hidden'>
         <NavLink
           to='/'
@@ -37,7 +38,7 @@ export default function Navbar() {
           className={` text-white px-4 py-2 rounded-full ${
             isRoomPage ? 'bg-primary' : 'bg-[#0e0e0e]'
           }`}>
-          Book Now
+          Get In Touch
         </button>
       </div>
       <div className='lg:hidden' onClick={() => setIsOpen(!isOpen)}>

@@ -99,7 +99,7 @@ export default function Home() {
       {/* Rooms Section */}
       <section id='services' className='mt-16'>
         <div className='layout-pad flex justify-between items-center'>
-          <h2 className='font-bold text-4xl'>Our Rooms</h2>
+          <h2 className='font-bold text-4xl'>Equipment and Technology</h2>
           <div className='flex gap-4 items-center text-primary text-4xl'>
             <Icon
               icon='solar:round-arrow-left-line-duotone'
@@ -156,7 +156,7 @@ export default function Home() {
       {/* Facilities Section */}
       <section className='mt-32'>
         <div className='layout-pad flex justify-between items-center'>
-          <h2 className='font-bold text-4xl'>Our Facilities</h2>
+          <h2 className='font-bold text-4xl'>Our Field Operations</h2>
           <div className='flex gap-4 items-center text-primary text-4xl'>
             <Icon
               icon='solar:round-arrow-left-line-duotone'
@@ -345,10 +345,10 @@ export default function Home() {
         <div className='text-center mb-8 lg:text-left lg:max-w-[55%]'>
           <h2 className='font-bold text-4xl'>We're here to help</h2>
           <p className='text-sm mt-4'>
-            Ready to book? Whether you're planning an event, retreat, or
-            extended stay, we're here to help. Call or WhatsApp us today to
-            reserve your space—rooms, halls, and services are available, and
-            early booking is highly recommended due to high demand.
+            Whether you need pipeline welding, leak testing, or full-scale oil
+            and gas support, Meskey is here to deliver. Call or WhatsApp us
+            today to discuss your project—our team is ready, and early
+            engagement is key to timely execution.
           </p>
         </div>
 
@@ -358,7 +358,7 @@ export default function Home() {
               <img src={emailIcon} alt='Email Icon' />
               <div>
                 <div className='font-medium mb-2'>Email</div>
-                <div className='text-sm'>info@bakhitapastoralcentre.com</div>
+                <div className='text-sm'>info@meskeyprecisioneng.org</div>
               </div>
             </div>
             <div className='bg-primary/15 flex items-center gap-6 py-3 px-6 rounded-full mb-4'>
