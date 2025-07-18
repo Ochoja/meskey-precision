@@ -206,7 +206,6 @@ export default function Home() {
                   <div className='text-lg font-semibold mb-1'>
                     {facility.name}
                   </div>
-                  <p className='text-sm text-gray-600'>{facility.headline}</p>
                 </div>
               </SwiperSlide>
             ))}
