@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Computer Center",
+    "name": "Factory Acceptance Test (FAT)",
     "headline": "Empowering Minds through Modern Tools",
     "details": "Our fully equipped ICT Centre is designed for training, workshops, and research. Whether you're hosting a digital skills seminar or facilitating online courses, our 50-capacity tech-friendly hall offers fast internet, modern systems, and a conducive learning environment.",
     "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/computer-center/computer1.jpg",
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-18%20at%2012.11.57%20PM.jpeg?updatedAt=1752840173513",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/computer-center/computer2.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/computer-center/computer3.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/computer-center/computer4.jpg",
@@ -21,11 +21,11 @@
   },
   {
     "id": 2,
-    "name": "Event Hall",
+    "name": "Offshore asset installation and Revamp",
     "headline": "Where Every Event Finds its Perfect Stage",
     "details": "Our 300-seater Event Hall and beautiful open-air reception space provide the ideal backdrop. With reliable power, serene surroundings, and flexible seating arrangements",
     "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/hall/hall1.jpg",
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-18%20at%2011.33.55%20AM.jpeg?updatedAt=1752840171497",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/hall/hall2.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/hall/hall3.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/hall/hall4.jpg"
@@ -33,11 +33,21 @@
   },
   {
     "id": 3,
-    "name": "Restaurant",
+    "name": "Pipeline pressure testing",
     "headline": "A Taste of Home",
     "details": "Our in-house restaurant offers delicious, freshly prepared meals — from local favorites to continental classics.",
     "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/restaurant/restaurant1.jpg",
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-18%20at%2011.51.22%20AM.jpeg?updatedAt=1752840171471",
+      "https://ik.imagekit.io/rmhnagyqw/Bakhita/restaurant/restaurant2.jpg"
+    ]
+  },
+    {
+    "id": 4,
+    "name": "Completed control panel project",
+    "headline": "A Taste of Home",
+    "details": "Our in-house restaurant offers delicious, freshly prepared meals — from local favorites to continental classics.",
+    "images": [
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-18%20at%2012.03.09%20PM.jpeg?updatedAt=1752840170682",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/restaurant/restaurant2.jpg"
     ]
   }
