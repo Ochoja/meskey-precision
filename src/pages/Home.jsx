@@ -142,15 +142,14 @@ export default function Home() {
             onSwiper={(swiper) => (roomSwiperRef.current = swiper)}>
             {rooms.map((room, index) => (
               <SwiperSlide key={index}>
-                <Link to={`/room/${room.id}`}>
+                <div to={`/room/${room.id}`}>
                   <img
                     src={room.images[0]}
                     alt=''
                     className='w-full h-96 rounded-xl mb-3 object-cover'
                   />
                   <div className='text-lg font-semibold mb-1'>{room.name}</div>
-                  <p className='text-sm text-gray-600'>{room.price}</p>
-                </Link>
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>
@@ -198,7 +197,7 @@ export default function Home() {
             onSwiper={(swiper) => (facilitySwiperRef.current = swiper)}>
             {facilities.map((facility, index) => (
               <SwiperSlide key={index}>
-                <Link to={`/facility/${facility.id}`}>
+                <div to={`/facility/${facility.id}`}>
                   <img
                     src={facility.images[0]}
                     alt={facility.name}
@@ -208,7 +207,7 @@ export default function Home() {
                     {facility.name}
                   </div>
                   <p className='text-sm text-gray-600'>{facility.headline}</p>
-                </Link>
+                </div>
               </SwiperSlide>
             ))}
           </Swiper>

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Suite",
+    "name": "CCTV Installation",
     "type": "room",
     "price": "N16,000 Per Night",
     "headline": "More than a Room",
@@ -24,7 +24,7 @@
       }
     ],
     "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room1.jpg",
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-17%20at%2010.20.23%20PM.jpeg?updatedAt=1752832470846",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room2.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room3.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room4.jpg",
@@ -33,7 +33,7 @@
   },
   {
     "id": 2,
-    "name": "Executive Suite",
+    "name": "Panel Fabrication",
     "type": "room",
     "price": "N18,000 Per Night",
     "headline": "Luxury, Privacy, and Peace of Mind - All in One",
@@ -56,7 +56,7 @@
       }
     ],
     "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room1.jpg",
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-17%20at%2010.20.21%20PM.jpeg?updatedAt=1752832470337",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room2.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room3.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-suite/room4.jpg"
@@ -64,7 +64,7 @@
   },
   {
     "id": 3,
-    "name": "Standard",
+    "name": "Precision welding using orbit welding machine",
     "type": "room",
     "price": "N16,000 Per Night",
     "headline": "Everything You Need for a Peaceful Night’s Rest",
@@ -87,7 +87,7 @@
       }
     ],
     "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-standard/room1.jpg",
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-17%20at%2010.20.21%20PM%20(1).jpeg?updatedAt=1752832470141",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-standard/room2.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-standard/room3.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-standard/room4.jpg"
@@ -95,7 +95,7 @@
   },
   {
     "id": 4,
-    "name": "Luxury Double",
+    "name": "Panel Installation, Upgrade and Commissioning",
     "type": "room",
     "price": "N32,000 Per Night",
     "headline": "Spacious Comfort for Two, or Just for You",
@@ -118,40 +118,10 @@
       }
     ],
     "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-luxury/room1.jpg",
+      "https://ik.imagekit.io/Ochoja01/meskey/WhatsApp%20Image%202025-07-17%20at%2010.20.22%20PM.jpeg?updatedAt=1752832825303",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-luxury/room2.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-luxury/room3.jpg",
       "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-luxury/room4.jpg"
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Deluxe",
-    "type": "room",
-    "price": "N35,000 Per Night",
-    "headline": "Designed for Comfort, Styled for Ease",
-    "details": "Our finest offering. The Executive Suite is tailored for distinguished guests who desire luxury, tranquility, and class — complete with a separate lounge, refined décor, and top-tier amenities.",
-    "amenities": [
-      {
-        "King Size Bed": "fluent:bed-24-regular"
-      },
-      {
-        "Room Service": "material-symbols:room-service-outline"
-      },
-      {
-        "Fully Air Conditioned": "mingcute:air-condition-open-line"
-      },
-      {
-        "Study Table": "lucide-lab:desk-lamp"
-      },
-      {
-        "35inch Flat Screen TV": "ic:outline-tv"
-      }
-    ],
-    "images": [
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-deluxe/room1.jpg",
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-deluxe/room2.jpg",
-      "https://ik.imagekit.io/rmhnagyqw/Bakhita/room-deluxe/room3.jpg"
     ]
   }
 ]
