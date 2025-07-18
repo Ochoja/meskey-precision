@@ -225,17 +225,13 @@ export default function Home() {
             <Icon icon='el:quote-alt' className='text-accent text-3xl' />
             <div>
               <div className='font-semibold text-lg'>
-                Perfect Spot for Events and Stay
+                Trusted Partner for Complex Installations
               </div>
               <div className='font-light'>
-                Our wedding reception was held at Bakhita and everything was
-                perfect. Thank you for making our day magical!
+                From Xmas tree installation to final calibration checks, Meskey
+                handled everything with precision and expertise. A reliable
+                partner for any high-stakes oil and gas project.
               </div>
-            </div>
-
-            <div>
-              <div className='font-medium'>- Grace and Musa</div>
-              <div className='font-light text-sm'>Couple</div>
             </div>
           </div>
 
@@ -252,11 +248,6 @@ export default function Home() {
                 work with them again.
               </div>
             </div>
-
-            <div>
-              <div className='font-medium'>- Dr Sani M</div>
-              <div className='font-light text-sm'>Business Man</div>
-            </div>
           </div>
 
           <div className='bg-white border-primary/30 rounded-2xl border flex flex-col justify-between py-6 px-4 flex-1 md:min-w-[320px] gap-4'>
@@ -270,11 +261,6 @@ export default function Home() {
                 verification. Their advanced testing methods helped us identify
                 issues early and avoid costly delays.
               </div>
-            </div>
-
-            <div>
-              <div className='font-medium'>- Paulina</div>
-              <div className='font-light text-sm'>Event Planner</div>
             </div>
           </div>
         </div>
