@@ -103,7 +103,7 @@ export default function Home() {
       {/* Rooms Section */}
       <section id='services' className='mt-16'>
         <div className='layout-pad flex justify-between items-center'>
-          <h2 className='font-bold text-4xl'>Equipment and Technology</h2>
+          <h2 className='font-bold text-4xl'>Our Services</h2>
           <div className='flex gap-4 items-center text-primary text-4xl'>
             <Icon
               icon='solar:round-arrow-left-line-duotone'
