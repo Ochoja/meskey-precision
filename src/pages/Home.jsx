@@ -499,8 +499,8 @@ export default function Home() {
               <div>
                 <div className='font-medium mb-2'>Address</div>
                 <div className='text-sm'>
-                  Dawaki Abuja Behind Sunset energy Fueling Station Kubwa
-                  Express.
+                  No 4 School Road Off Makama Road Opposite Kaduna Refinery
+                  Housing Complex Kaduna State Nigeria.
                 </div>
               </div>
             </div>
