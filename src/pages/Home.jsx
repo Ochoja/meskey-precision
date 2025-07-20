@@ -100,6 +100,33 @@ export default function Home() {
         </div>
       </section>
 
+      <section className='layout-pad mt-16'>
+        <h2 className='font-bold text-4xl mb-6'>About Us</h2>
+        <p>
+          Meskey delivers high-performance automation and instrumentation
+          solutions for both brownfield and greenfield oil and gas projects. We
+          specialize in orbit pipeline welding, control panel design,
+          instrumentation calibration, and Xmas tree installation across onshore
+          and offshore operations. Our work is grounded in precision, safety,
+          and reliability, especially in hazardous environments where
+          performance cannot be compromised.
+          <br /> <br />
+          We offer end-to-end support for pipeline integrity management,
+          including advanced pressure and leakage testing methods such as
+          hydrostatic and pneumatic testing, tracer gas detection, infrared
+          imaging, and acoustic monitoring. Our expertise also extends to
+          sandblasting, tank upgrading, fuel purification systems, and real-time
+          monitoring through SCADA and remote terminal technologies.
+          <br /> <br />
+          From data center fuel transfer and custody systems to fire safety
+          process controls, automatic tank gauging, and industrial automation,
+          Meskey is committed to delivering integrated engineering solutions
+          that keep critical operations running safely and efficiently. With a
+          proven track record in complex environments, we are your trusted
+          partner for precision, performance, and long-term value.
+        </p>
+      </section>
+
       {/* Rooms Section */}
       <section id='services' className='mt-16'>
         <div className='layout-pad flex justify-between items-center'>
@@ -329,6 +356,111 @@ export default function Home() {
             <p className='text-sm font-light'>
               Thorough verification of pipeline durability, pressure tolerance,
               and compliance.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon
+              icon='streamline-plump:cog-automation'
+              className='text-primary text-5xl'
+            />
+            <h3 className='text-xl md:text-2xl font-bold'>
+              Automation and Instrumentation
+            </h3>
+            <p className='text-sm font-light'>
+              Precision-engineered automation systems and instrumentation for
+              seamless operation and monitoring of industrial processes.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon icon='ph:gas-pump' className='text-primary text-5xl' />
+            <h3 className='text-xl md:text-2xl font-bold'>
+              Tank Gauging & Pump Control
+            </h3>
+            <p className='text-sm font-light'>
+              Automated tank gauging systems with level switching and pump
+              control for efficient fluid management and safety assurance.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon
+              icon='material-symbols-light:compass-calibration-outline-rounded'
+              className='text-primary text-5xl'
+            />
+            <h3 className='text-xl md:text-2xl font-bold'>
+              Instrument Calibration
+            </h3>
+            <p className='text-sm font-light'>
+              Accurate calibration services for field instruments to ensure
+              optimal performance, compliance, and reliability.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon
+              icon='material-symbols-light:3d-outline'
+              className='text-primary text-5xl'
+            />
+            <h3 className='text-xl md:text-2xl font-bold'>
+              3D Tank Calibration
+            </h3>
+            <p className='text-sm font-light'>
+              High-accuracy tank calibration using advanced 3D laser technology
+              for precise volume measurements and inventory management.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon
+              icon='qlementine-icons:swap-16'
+              className='text-primary text-5xl'
+            />
+            <h3 className='text-xl md:text-2xl font-bold'>LACT Units</h3>
+            <p className='text-sm font-light'>
+              Lease Automatic Custody Transfer systems for reliable and secure
+              transfer of ownership in oil & gas transactions.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon
+              icon='material-symbols:terminal'
+              className='text-primary text-5xl'
+            />
+            <h3 className='text-xl md:text-2xl font-bold'>
+              Metering Skids & Terminal Monitoring
+            </h3>
+            <p className='text-sm font-light'>
+              Integrated metering skid systems and terminal monitoring
+              automation for efficient and accurate flow measurement and
+              operations control.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon
+              icon='mdi:gas-tank-outline'
+              className='text-primary text-5xl'
+            />
+            <h3 className='text-xl md:text-2xl font-bold'>
+              Fuel Management Systems
+            </h3>
+            <p className='text-sm font-light'>
+              Comprehensive solutions for real-time fuel monitoring, dispensing
+              control, inventory tracking, and loss prevention.
+            </p>
+          </div>
+
+          <div className='flex flex-col items-center text-center gap-3'>
+            <Icon icon='oui:beaker' className='text-primary text-5xl' />
+            <h3 className='text-xl md:text-2xl font-bold'>
+              Oil Treatment & Purification
+            </h3>
+            <p className='text-sm font-light'>
+              Advanced purification units designed to treat and restore oil
+              quality, ensuring clean and efficient operation.
             </p>
           </div>
         </div>
