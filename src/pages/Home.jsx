@@ -169,14 +169,14 @@ export default function Home() {
             onSwiper={(swiper) => (roomSwiperRef.current = swiper)}>
             {rooms.map((room, index) => (
               <SwiperSlide key={index}>
-                <div to={`/room/${room.id}`}>
+                <Link to={`/service/${room.id}`}>
                   <img
                     src={room.images[0]}
                     alt=''
                     className='w-full h-96 rounded-xl mb-3 object-cover'
                   />
                   <div className='text-lg font-semibold mb-1'>{room.name}</div>
-                </div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>

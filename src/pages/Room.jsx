@@ -2,7 +2,6 @@ import NavBar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useParams } from 'react-router-dom';
 import rooms from '../assets/data/rooms.json';
-import facilities from '../assets/data/facilities.json';
 import { useState, useEffect, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
@@ -21,32 +20,16 @@ export default function Room() {
   const nextRef = useRef(null);
 
   useEffect(() => {
-    if (type === 'room') {
-      try {
-        const selectedRoom = rooms.find((item) => item.id === parseInt(id));
-        if (!selectedRoom) {
-          throw new Error('Room not found');
-        }
-        setRoom(selectedRoom);
-        setLoading(false);
-      } catch (err) {
-        setError(err.message);
-        setLoading(false);
+    try {
+      const selectedRoom = rooms.find((item) => item.id === parseInt(id));
+      if (!selectedRoom) {
+        throw new Error('Room not found');
       }
-    } else if (type === 'facility') {
-      try {
-        const selectedRoom = facilities.find(
-          (item) => item.id === parseInt(id)
-        );
-        if (!selectedRoom) {
-          throw new Error('Facility not found');
-        }
-        setRoom(selectedRoom);
-        setLoading(false);
-      } catch (err) {
-        setError(err.message);
-        setLoading(false);
-      }
+      setRoom(selectedRoom);
+      setLoading(false);
+    } catch (err) {
+      setError(err.message);
+      setLoading(false);
     }
   }, [id, type]);
 
@@ -76,25 +59,17 @@ export default function Room() {
 
   return (
     <main>
-      <header
-        className='relative bg-cover bg-center text-white'
-        style={{ backgroundImage: `url(${room.images[0]})` }}>
-        <div className='absolute inset-0 bg-black/70'></div>
-        <div className='relative'>
-          <NavBar />
-        </div>
-        <div className='relative z-10 text-center py-[30vh]'>
-          <h1 className='text-5xl font-bold mb-2'>{room.name}</h1>
-          {room.price && <p>{room.price}</p>}
-        </div>
-      </header>
+      <NavBar />
 
       <section className='layout-pad mt-8'>
-        <h2 className='font-semibold text-2xl mb-2'>{room.headline}</h2>
+        <h1 className='text-5xl font-bold mb-2'>{room.name}</h1>
+
+        <h2 className='py-4 text-2xl font-semibold'>{room.headline}</h2>
+
         <p>{room.details}</p>
 
         {room.amenities && (
-          <div className='mt-4 flex flex-wrap gap-6'>
+          <div className='mt-8 flex flex-wrap gap-4'>
             {room.amenities.map((item, index) => {
               const [label, icon] = Object.entries(item)[0];
               return (

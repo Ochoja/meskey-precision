@@ -1,26 +1,35 @@
 [
   {
     "id": 1,
-    "name": "Surveilance system for oil and gas assets",
+    "name": "Metering",
     "type": "room",
     "price": "N16,000 Per Night",
-    "headline": "More than a Room",
-    "details": "Comfort meets simplicity. Our Standard Room offers everything you need for a peaceful stay — clean, cozy, and budget-friendly without compromising quality.",
+    "headline": "Precision Measurement for Operational Accuracy",
+    "details": "At Meskey, we understand that accurate measurement is at the core of operational integrity in the oil and gas industry. Our metering solutions are designed to ensure precise flow measurement of fluids and gases across critical infrastructure. From custody transfer to consumption tracking, we deploy advanced metering systems that comply with industry standards and regulatory requirements. Whether you're managing fuel transfer in data centers or conducting pressure and flow verification on pipelines, Meskey provides reliable systems that optimize performance, improve accountability, and reduce operational risk.",
     "amenities": [
       {
-        "King Size Bed": "fluent:bed-24-regular"
+        "Energy Metering": "hugeicons:energy"
       },
       {
-        "Room Service": "material-symbols:room-service-outline"
+        "Flow Rate Management": "material-symbols:fluid-outline"
       },
       {
-        "Fully Air Conditioned": "mingcute:air-condition-open-line"
+        "Custody Transfer Systems": "material-symbols:oil-barrel-outline-rounded"
       },
       {
-        "Study Table": "lucide-lab:desk-lamp"
+        "Pressure & Temperature Sensing": "lets-icons:pressure"
       },
       {
-        "35inch Flat Screen TV": "ic:outline-tv"
+        "Meter Calibration and Certification": "material-symbols:compass-calibration-outline"
+      },
+      {
+        "Consumption Monitoring": "iwwa:consumption-o"
+      },
+      {
+        "Fuel Transfer Metering": "qlementine-icons:swap-16"
+      },
+      {
+        "Multiphase Metering": "f7:speedometer"
       }
     ],
     "images": [
@@ -33,26 +42,32 @@
   },
   {
     "id": 2,
-    "name": "Panel Fabrication",
+    "name": "Monitoring",
     "type": "room",
     "price": "N18,000 Per Night",
-    "headline": "Luxury, Privacy, and Peace of Mind - All in One",
-    "details": "A step up in space and style. The Deluxe Room gives you extra comfort, elegant furnishing, and a relaxed ambiance for both work and rest.",
+    "headline": "Real-Time Oversight for Enhanced Control and Security",
+    "details": "At Meskey, we understand that accurate measurement is at the core of operational integrity in the oil and gas industry. Our metering solutions are designed to ensure precise flow measurement of fluids and gases across critical infrastructure. From custody transfer to consumption tracking, we deploy advanced metering systems that comply with industry standards and regulatory requirements. Whether you're managing fuel transfer in data centers or conducting pressure and flow verification on pipelines, Meskey provides reliable systems that optimize performance, improve accountability, and reduce operational risk.",
     "amenities": [
       {
-        "King Size Bed": "fluent:bed-24-regular"
+        "On-shore and Off-shore Surveillance": "ph:security-camera"
       },
       {
-        "Room Service": "material-symbols:room-service-outline"
+        "SCADA Integration": "hugeicons:satellite"
       },
       {
-        "Fully Air Conditioned": "mingcute:air-condition-open-line"
+        "Remote Monitoring": "eos-icons:monitoring"
       },
       {
-        "Study Table": "lucide-lab:desk-lamp"
+        "Acoustic Leak Detection": "mdi:pipe-leak"
+      },
+            {
+        "Data Logging and Alerts": "ant-design:bar-chart-outlined"
       },
       {
-        "35inch Flat Screen TV": "ic:outline-tv"
+        "Tank Level Gauging": "game-icons:fuel-tank"
+      },
+      {
+        "Access Control Systems": "mdi:user-access-control"
       }
     ],
     "images": [
@@ -64,26 +79,26 @@
   },
   {
     "id": 3,
-    "name": "Precision welding using orbit welding machine",
+    "name": "Analyzing",
     "type": "room",
     "price": "N16,000 Per Night",
-    "headline": "Everything You Need for a Peaceful Night’s Rest",
-    "details": "Designed for travelers who love a little more room. The Luxury Double features spacious bedding, refined decor, and the perfect atmosphere for couples or solo guests wanting extra comfort.",
+    "headline": "Data-Driven Insights for Smarter Operations",
+    "details": "Meskey provides advanced analysis solutions to help clients make informed, timely decisions. We implement tools and systems that gather, interpret, and present data related to pressure, flow, integrity, and system performance. With techniques like acoustic leak detection, infrared gas imaging, tracer gas testing, and computational pipeline monitoring (CPM), we help you identify risks early, optimize asset lifespan, and support predictive maintenance strategies. Our data-driven approach ensures that every action is backed by clear, actionable insight.",
     "amenities": [
       {
-        "King Size Bed": "fluent:bed-24-regular"
+        "Leak Detection Analytics": "lets-icons:search-duotone"
       },
       {
-        "Room Service": "material-symbols:room-service-outline"
+        "Data Trend Analysis": "streamline-ultimate:analytics-net-bold"
       },
       {
-        "Fully Air Conditioned": "mingcute:air-condition-open-line"
+        "Pipeline Performance Reports": "tabler:report"
       },
       {
-        "Study Table": "lucide-lab:desk-lamp"
+        "Anomaly Detection System": "oui:anomaly-detection"
       },
       {
-        "35inch Flat Screen TV": "ic:outline-tv"
+        "CPM (Computational Pipeline Monitoring)": "pajamas:monitor"
       }
     ],
     "images": [
@@ -95,26 +110,32 @@
   },
   {
     "id": 4,
-    "name": "Panel Installation, Upgrade and Commissioning",
+    "name": "Automation",
     "type": "room",
     "price": "N32,000 Per Night",
-    "headline": "Spacious Comfort for Two, or Just for You",
-    "details": "Experience more than a room — enjoy a private suite that offers a living area, elegant furnishings, and an elevated sense of space and privacy for extended stays or special visits.",
+    "headline": "Smart Systems for Seamless Industrial Performance",
+    "details": "Meskey’s automation services bring efficiency, safety, and scalability to industrial operations. We design and install intelligent control systems—from programmable logic controllers (PLCs) to custom-built control panels—that streamline workflows and reduce human error. Our solutions cover everything from level control and fuel purification to fire safety integration and industrial process automation. Whether you're upgrading a brownfield site or building from the ground up, Meskey equips you with automation that transforms complexity into clarity.",
     "amenities": [
       {
-        "King Size Bed": "fluent:bed-24-regular"
+        "Control Panel Design": "ph:circuitry"
       },
       {
-        "Room Service": "material-symbols:room-service-outline"
+        "PLC and RTU Programming": "solar:programming-linear"
       },
       {
-        "Fully Air Conditioned": "mingcute:air-condition-open-line"
+        "Smart Process Automation": "tabler:automation"
       },
       {
-        "Study Table": "lucide-lab:desk-lamp"
+        "Alarm and Shutdown Systems": "ant-design:alert-outlined"
       },
       {
-        "35inch Flat Screen TV": "ic:outline-tv"
+        "Level Control Systems": "icon-park-outline:water-level"
+      },
+      {
+        "Industrial Process Automation": "carbon:workflow-automation"
+      },
+      {
+        "Fire and Safety Integration": "ant-design:safety-outlined"
       }
     ],
     "images": [
