@@ -100,7 +100,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='layout-pad mt-16'>
+      <section id='about' className='layout-pad mt-16'>
         <h2 className='font-bold text-4xl mb-6'>About Us</h2>
         <p>
           Meskey delivers high-performance automation and instrumentation
@@ -248,7 +248,7 @@ export default function Home() {
         <p className='text-center mt-2'>See what our clients are saying</p>
 
         <div className='flex flex-wrap gap-8 items-stretch mt-8'>
-          <div className='bg-white border-primary/30 rounded-2xl border flex flex-col justify-between py-6 px-4 flex-1 md:min-w-[320px] gap-4'>
+          <div className='bg-white border-primary/30 rounded-2xl border flex flex-col justify-between py-6 px-4 flex-1 min-w-[320px] gap-4'>
             <Icon icon='el:quote-alt' className='text-accent text-3xl' />
             <div>
               <div className='font-semibold text-lg'>
@@ -262,7 +262,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='bg-white border-primary/30 rounded-2xl border flex flex-col justify-between py-6 px-4 flex-1 md:min-w-[320px] gap-4'>
+          <div className='bg-white border-primary/30 rounded-2xl border flex flex-col justify-between py-6 px-4 flex-1 min-w-[320px] gap-4'>
             <Icon icon='el:quote-alt' className='text-accent text-3xl' />
             <div>
               <div className='font-semibold text-lg'>
@@ -277,7 +277,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='bg-white border-primary/30 rounded-2xl border flex flex-col justify-between py-6 px-4 flex-1 md:min-w-[320px] gap-4'>
+          <div className='bg-white border-primary/30 rounded-2xl border flex flex-col justify-between py-6 px-4 flex-1 min-w-[300px] gap-4'>
             <Icon icon='el:quote-alt' className='text-accent text-3xl' />
             <div>
               <div className='font-semibold text-lg'>

@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useLocation, NavLink } from 'react-router-dom';
 import Logo from '../assets/LOGO.png';
@@ -48,6 +49,21 @@ export default function Navbar() {
       <div className='lg:hidden' onClick={() => setIsOpen(!isOpen)}>
         <Icon icon='mingcute:menu-line' className='text-3xl cursor-pointer' />
       </div>
+
+      {isOpen && (
+        <div className='absolute top-20 right-0 bg-white w-full h-full flex flex-col items-center justify-center gap-8 text-black'>
+          <Link to='/' onClick={() => setIsOpen(false)}>
+            Home
+          </Link>
+          <Link to='/#about' onClick={() => setIsOpen(false)}>
+            About
+          </Link>
+          <Link to='/#services' onClick={() => setIsOpen(false)}>
+            Services
+          </Link>
+          <button onClick={() => setIsOpen(false)}>Get In Touch</button>
+        </div>
+      )}
     </nav>
   );
 }
