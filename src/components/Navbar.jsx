@@ -28,7 +28,11 @@ export default function Navbar() {
           }>
           Home
         </NavLink>
-        <div>About</div>
+        <NavLink
+          to='/#about'
+          className='cursor-pointer hover:text-accent hover:font-semibold'>
+          About
+        </NavLink>
         <NavLink
           to='/#services'
           className='cursor-pointer hover:text-accent hover:font-semibold'>
